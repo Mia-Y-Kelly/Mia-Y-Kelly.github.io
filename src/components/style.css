@@ -1,0 +1,72 @@
+/*
+    Color Scheme From Light to Dark
+    F8F9FA
+E9ECEF
+    DEE2E6
+CED4DA
+    ADB5BD
+    6C757D
+    495057
+    343A40
+    212529
+*/
+.About {
+    font-family: Calibri;
+    background-color: #CED4DA;
+    padding: 2% 5% 2% 5%;
+    margin-top: 2%;
+    text-align: center;
+
+}
+
+.About a:visited, a:link {
+    color: black;
+}
+
+.About img {
+    width: 20%;
+    border-radius: 50%;
+}
+.Links {
+    background-color: #E9ECEF;
+    list-style-type: none;
+    margin-top: 2%;
+    text-align: center;
+
+    font-family: Calibri;
+}
+
+.Links ul {
+    /* Formatting */
+    display: inline-table;
+    margin: 0;
+    padding: 0 20% 0 20%;
+
+    font-family: Calibri;
+}
+
+.Links li {
+    /* Formatting */
+    padding: .75em 8em .75em 8em;
+    margin: 2% 0 2% 0;
+    list-style-type: none;
+    
+    border: 2px solid #ADB5BD;
+    border-radius: 20px;
+    background-color: #CED4DA;    
+}
+
+.Links li:hover, .Links li a:visited:hover {
+    background-color: #ADB5BD;
+    border: 2px solid #ADB5BD;
+    border-radius: 20px;
+
+    color: white;
+    font-weight: bold;
+}
+
+
+.Links a:visited, a:link {
+    color: #212529;
+}
+

@@ -1,0 +1,2 @@
+# Mia Kelly
+I am a Computer Science and Cyber Security student at Michgian Technological University. This is a simple webpage I have spun up with basic information about me. I plan on making improvements to this website at a later date.
