@@ -1,1 +1,0 @@
-This folder is a duplicate of the build folder and is needed to deploy to GitHub pages.
