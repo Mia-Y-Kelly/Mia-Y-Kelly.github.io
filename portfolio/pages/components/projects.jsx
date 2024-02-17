@@ -5,7 +5,7 @@ export default function Projects() {
     return(
         <>
         <div
-            className={pstyles.outerContainer}
+            className={styles.card}
             id="projects"
           >
             <h2>

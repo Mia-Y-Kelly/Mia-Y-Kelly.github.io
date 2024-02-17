@@ -1,65 +1,40 @@
-/*
-    Darkest: #131515
-    Dark: #2B2C28
-    Dark Teal: #339989
-    Light Teal: #7DE2D1
-    Offwhite: #FFFAFB
-    Link: https://coolors.co/palette/131515-2b2c28-339989-7de2d1-fffafb
-*/
 
-.outerContainer {
-    border: 1px solid rgba(var(--card-border-rgb), 0.15);
-    border-radius: var(--border-radius);
-    background: rgba(var(--card-rgb), 0.1);
-    margin: 5vh 0 5vh 0;
-    padding: 1rem 1.2rem;
-    min-height: 80vh;
 
-    h2 {
-        color: #339989;    
-    }
+.projectsContainer {  
+    display: grid;
+    grid-template-columns: repeat(2, [col] auto);
+    justify-content: space-around;
 
-    .projectsContainer {  
-        display: grid;
-        grid-template-columns: repeat(2, [col] auto);
-        justify-content: space-around;
+    .project {
+        // border: 1px solid rgba(var(--card-border-rgb), 0.15);
+        border: 1px solid rgba(var(--accent), 1);
+        border-radius: var(--border-radius);
 
-        .project {
-            // border: 1px solid rgba(var(--card-border-rgb), 0.15);
-            border: 1px solid rgba(51, 153, 137, 1);
-            border-radius: var(--border-radius);
-            // background: radial-gradient(
-            //     rgba(255, 250, 251, .09),
-            //     rgba(125, 226, 209, .09),
-            //     rgba(51, 153, 137, .09)
-            // );
-            margin: 2%;
-            padding: 1vh 1vw 1vh 1vw;
+        margin: 2%;
+        padding: 1vh 1vw 1vh 1vw;
+        
+        
+        h3, h4, li {
+            color: rgb(var(--text-color));    
+        }
+
+        h3, p, li {
+            margin: 5px;
+        }
+
+        h4 {
+            margin: 5px;
+            font-weight: normal;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            list-style-position: inside;
             
-            
-            h3 {
-                color: #131515;    
-            }
-
-            h3, p, li {
-                margin: 5px;
-            }
-    
-            h4 {
-                margin: 5px;
-                font-weight: normal;
-            }
-            ul {
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                list-style-position: inside;
-                
-                li::marker {
-                    color: #339989;
-                }
+            li::marker {
+                color: rgb(var(--bullet-color));
             }
         }
     }
 }
-

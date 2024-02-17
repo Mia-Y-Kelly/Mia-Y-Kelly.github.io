@@ -3,9 +3,11 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.scss";
 import pstyles from "@/styles/Projects.module.scss"
+
 import NavBar from "./components/navbar";
 import Projects from './components/projects';
 import Experience from "./components/experience";
+import Contact from "./components/contact"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,26 +35,8 @@ export default function Home() {
             </p>
           </div>
           <Experience />        
-          <Projects/>
-          <div 
-            className={styles.card}
-            id="contact"
-          >
-            <h2>Contact</h2>
-            <Image 
-              src="/envelope.svg"
-              width={30}
-              height={30}
-            />
-            <p><a href="mailto:mykelly@mtu.edu">mykelly@mtu.edu</a></p>
-            <br/>
-            <Image 
-              src="/linkedin.svg"
-              width={30}
-              height={30}
-            />
-            <p><a href="https://www.linkedin.com/in/mia-kelly-mtu/">LinkedIn</a></p>
-          </div>
+          <Projects />
+          <Contact />
         </div>
       </main>
     </>

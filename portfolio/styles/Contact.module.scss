@@ -1,0 +1,24 @@
+.cardH {
+    height: fit-content;
+    margin-bottom: 5vh;
+}
+.contactContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+.contactInfo{
+    display: flex;
+    flex-direction: row;
+    width: fit-content;
+    margin-right: 3vw;
+
+    p {
+        line-height: 4vh;
+        text-align: center;
+        vertical-align: middle;
+        margin-left: 1vw;
+        text-decoration: underline;
+        font-size: larger;
+    }
+}
