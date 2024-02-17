@@ -33,3 +33,46 @@
         }
     }
 }
+
+/* Mobile */
+@media (max-width: 700px) {
+    .projects {
+        min-height: auto;
+        max-width: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .projectsContainer {  
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        h2 {
+            color: rgb(var(--accent));
+        }
+        .project {  
+            justify-content: center;
+            border: 2px solid rgba(var(--accent), 1);
+            border-radius: var(--border-radius);
+            margin: 1em 2em;
+            padding: 0.25em;
+
+            h3, h4 {
+                color: rgb(var(--text-color));    
+            }
+    
+            p {
+                color: rgb(var(--text-color));
+                font-size: var(--font-size);
+                line-height: var(--line-height);
+                margin-top: .25em;  
+                margin-bottom: 1em; 
+            }
+    
+            h4 {
+                font-weight: normal;
+            }
+        }
+    }
+
+}

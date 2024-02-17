@@ -39,6 +39,37 @@
 }
 
 /* Mobile */
+@media(max-width: 700px) {
+  .main {
+    position: inline;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 85vh;
+    width: 100vw;
+    overflow: hidden;
+  
+    background: linear-gradient(
+      180deg,
+      rgb(var(--background)) 30%,
+      var(--grad-end)
+    );
+  
+    footer {
+      font-size: var(--font-size);
+      line-height: var(--line-height);
+      color: rgba(var(--text-color), 0.6);
+    }
+  }
+  
+  .grid {
+    display: flex;
+    flex-direction: column;
+    width: 75vw;
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+}
 // @media (max-width: 700px) {
 //   .content {
 //     padding: 4rem;
