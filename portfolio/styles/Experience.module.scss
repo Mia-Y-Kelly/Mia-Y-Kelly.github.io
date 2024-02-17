@@ -1,0 +1,37 @@
+.experience {
+    min-height: 85vh;
+}
+.position {
+    margin: 1vh 0 3vh 0;
+    h3, h4 {
+        color: rgb(var(--text-color));
+    }
+    ul {
+        margin: 0 0 1vh 0;
+    }
+    li {
+        list-style-position: inside;
+        font-size: var(--font-size);
+        line-height: var(--line-height);
+        color: rgb(var(--text-color));    
+    }
+
+    li::marker {
+        color: rgb(var(--bullet-color));
+    }
+
+    h4 {
+        font-weight: normal;
+    }
+
+    .details {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-bottom: .5vh;
+        
+        h4 {
+            font-weight: normal;
+        }
+    }
+}    
