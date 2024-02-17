@@ -7,11 +7,11 @@ export default function NavBar() {
     return(
         <>
             <div className={nav.nav}>
-                <h1 className={nav.navTitle}>Mia Kelly</h1>
+                {/* <h1 className={nav.navTitle}>Mia Kelly</h1> */}
                 <ul className={nav.navLinks}>
                     <li>
                         <Link href="#about">
-                            <p>About Me</p>
+                            <p>About</p>
                         </Link>
                     </li>
                     <li>
@@ -22,11 +22,6 @@ export default function NavBar() {
                     <li>
                         <Link href="#projects">
                             <p>Projects</p>
-                        </Link>
-                    </li>
-                    <li>
-                        <Link href="#contact">
-                            <p>Contact</p>
                         </Link>
                     </li>
                 </ul>

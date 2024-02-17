@@ -3,7 +3,7 @@
   top: 5vh;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: right;
 
 
   border-bottom: 2px solid rgb(var(--nav-line));
@@ -12,18 +12,18 @@
   min-height: 10vh;
   min-width: 80vw;
 
-  .navTitle{
-    position: relative;
-    padding-top: 4vh;
-    font-family: var(--font-mono);
-    color: rgb(var(--accent));
-  }
+  // .navTitle{
+  //   position: relative;
+  //   padding-top: 4vh;
+  //   font-family: sans-serif;
+  //   color: rgb(var(--accent));
+  // }
 
   .navLinks {
     display: flex;
     flex-direction: row;
     list-style-type: none;
-    color: rgba(var(--text-color), .5);
+    color: rgba(var(--text-color), .4);
   
     li {
       a {

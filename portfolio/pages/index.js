@@ -7,7 +7,7 @@ import pstyles from "@/styles/Projects.module.scss"
 import NavBar from "./components/navbar";
 import Projects from './components/projects';
 import Experience from "./components/experience";
-import Contact from "./components/contact"
+import About from "./components/about"
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,22 +23,13 @@ export default function Home() {
       <NavBar/>
       <main className={`${styles.main} ${inter.className}`}>
         <div className={styles.grid}>
-          <div
-            className={styles.card} 
-            id="about"
-          >
-            <h2>
-              About Me
-            </h2>
-            <p>
-            Hello! I am a student pursuing computer science and cybersecurity at Michigan Technological University. Getting involved in student organizations such as the Networking and Computing Student Association (NCSA) and IT Oxygen Enterprise, I've cultivated a rich tapestry of skills spanning full-stack development, machine learning, and cloud technologies. Beyond honing my technical expertise, my this has given me the opportunity to mentor younger students towards their own success.
-            </p>
-          </div>
-          <Experience />        
-          <Projects />
-          <Contact />
+          <About />
+          <Experience />
+          <Projects /> 
         </div>
+        <footer>&copy;2024</footer>
       </main>
+      
     </>
   );
 }

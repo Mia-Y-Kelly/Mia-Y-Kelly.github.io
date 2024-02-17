@@ -1,40 +1,35 @@
-
+.projects {
+    min-height: 85vh;
+}
 
 .projectsContainer {  
     display: grid;
-    grid-template-columns: repeat(2, [col] auto);
+    grid-template-columns: repeat(3, [col] auto);
     justify-content: space-around;
-
-    .project {
-        // border: 1px solid rgba(var(--card-border-rgb), 0.15);
-        border: 1px solid rgba(var(--accent), 1);
+    h2 {
+        color: rgb(var(--accent));
+    }
+    .project {  
+        border: 2px solid rgba(var(--accent), 1);
         border-radius: var(--border-radius);
 
-        margin: 2%;
+        margin: 2vh 5vh 5vh 0;
         padding: 1vh 1vw 1vh 1vw;
         
-        
-        h3, h4, li {
+        h3, h4 {
             color: rgb(var(--text-color));    
         }
 
-        h3, p, li {
-            margin: 5px;
+        p {
+            color: rgb(var(--text-color));
+            font-size: var(--font-size);
+            line-height: var(--line-height);
+            margin-top: .25em;  
+            margin-bottom: 1em;  
         }
 
         h4 {
-            margin: 5px;
             font-weight: normal;
-        }
-        ul {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            list-style-position: inside;
-            
-            li::marker {
-                color: rgb(var(--bullet-color));
-            }
         }
     }
 }
