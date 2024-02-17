@@ -1,0 +1,42 @@
+.nav {
+  position: absolute;
+  top: 10vh; /* required */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+  border-bottom: 2px solid #131515;
+  margin: 0 10vw 0 10vw;
+  padding: 0 2vw 0 2vw;
+  min-height: 10vh;
+  min-width: 80vw;
+
+  .navTitle{
+    position: relative;
+    padding-top: 4vh;
+    font-family: var(--font-mono);
+    color: #339989;
+  }
+
+  .navLinks {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    color: slategray;
+  
+    li {
+      a {
+        position: relative;
+        top: 60%;
+      }
+      padding: 0 0 0 2vw;
+      font-size: large;
+      font-family: sans-serif;
+    }
+  
+    li:hover{
+      color: #339989;
+    }
+  }
+}
