@@ -26,20 +26,37 @@ h2 {
   color: rgb(var(--accent));
 }
 
+/* Light Mode */
+:root,
+:root[data-theme=light] {
+  --accent: 51, 153, 137;
+  --text-color: 19, 21, 21;
+  --background: 255, 250, 251;
+  --nav-line: 19, 21, 21;
+
+  --socials-background: rgba(var(--accent), .4);
+
+  --bullet-color: 51, 153, 137;
+
+  --grad-end: rgba(19, 21, 21, .3);
+}
+
+html[data-theme=light] {
+  background: rgb(var(--background));
+}
+
 @media (prefers-color-scheme: light) {
   :root {
     --accent: 51, 153, 137;
-    --text-color: 19, 21, 21;
-    --background: 255, 250, 251;
-    --nav-line: 19, 21, 21;
+  --text-color: 19, 21, 21;
+  --background: 255, 250, 251;
+  --nav-line: 19, 21, 21;
 
-    --socials-background: rgba(var(--accent), .4);
+  --socials-background: rgba(var(--accent), .4);
 
-    --bullet-color: 51, 153, 137;
+  --bullet-color: 51, 153, 137;
 
-    /* Gradient colors */
-    /* --grad-end: 19, 21, 21; */
-    --grad-end: rgba(19, 21, 21, .3);
+  --grad-end: rgba(19, 21, 21, .3);
   }
 
   html {
@@ -47,23 +64,42 @@ h2 {
   }
 }
 
+/* Dark Mode */
+:root[data-theme=dark] {
+  --accent: 125, 226, 209;
+  --text-color: 255, 250, 251;
+  // --background: 74, 71, 62;
+  --background: rgb(43, 44, 40);
+  --nav-line: 255, 250, 251;
+
+  --socials-background: rgb(var(--accent));
+
+  --bullet-color: 125, 226, 209;
+
+  /* Gradient colors */
+  --grad-end: rgba(255, 250, 251, .1);
+}
+html[data-theme=dark] {
+  background: var(--background);
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --accent: 125, 226, 209;
     --text-color: 255, 250, 251;
-    --background: 74, 71, 62;
+    // --background: rgb(74, 71, 62);
+    --background: rgb(43, 40, 32);
     --nav-line: 255, 250, 251;
 
     --socials-background: rgb(var(--accent));
 
     --bullet-color: 125, 226, 209;
 
-    /* Gradient colors */
     --grad-end: rgba(255, 250, 251, .1);
   }
 
   html {
-    background: rgb(var(--background));
+    background: var(--background);
   }
 }
 

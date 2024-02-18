@@ -70,7 +70,15 @@
     scroll-behavior: smooth;
   }
 }
-// @media (max-width: 700px) {
+@media (max-width: 700px) {
+  .main {
+    background: linear-gradient(
+      180deg,
+      rgb(var(--background)) 30%,
+      var(--grad-end)
+    );
+  }
+}
 //   .content {
 //     padding: 4rem;
 //   }

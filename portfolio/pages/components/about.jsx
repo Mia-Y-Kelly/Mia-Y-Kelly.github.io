@@ -41,7 +41,14 @@ export default function About(){
                     </Link>
                 </div>  
                 <p>
-                    I am a senior pursuing computer science and cybersecurity at Michigan Technological University. I current work as an undergraduate research assistant developing an educational cybersecurity platform. Prior to this, I interned at Fidelity Investments, and worked at my universities IT department. Getting involved in student organizations such as the Networking and Computing Student Association (NCSA) and IT Oxygen Enterprise, I've cultivated a wide variety of skills spanning full-stack development, machine learning, and cloud technologies. Beyond honing my technical expertise, this has given me the opportunity to mentor younger students towards their own success.
+                    <br/>
+                    I am a senior studying Computer Science and Cybersecurity at Michigan Technological University. I currently work as a Research Assistant building an educational cybersecurity platform. My professional experience includes an internship at Fidelity Investments, where I worked on a SpringBoot API and systems administration tasks. I also worked my university's IT department performing hardware and software troubleshooting. 
+                    <br/><br/>
+                    Participation in student organizations such as the Networking and Computing Student Association (NCSA) and IT Oxygen Enterprise has contributed to the development of my skills across projects spanning full-stack development, machine learning, and cloud technologies. These experiences have also given me the opportunity to assume leadership roles. I currently serve as the Development Team Lead for NCSA and hold the position of Outreach Chair for IT Oxygen Enterprise.
+                    {/* <br/><br/>
+                    Outside of work and academic clubs and work, I was very active the women's ultimate frisbee club at my university until I tore my ACL skiing. 4 knee surgeries later, I enjoy less strenous activities such as swimming, reading, and collecting mechanical keyboards. <i>(If you have a reasonably-priced Axe60 keyboard for sale, let me know!)</i> */}
+                    <br/><br/>
+                    As I approach graduation, I am actively seeking employment opportunities starting in May or June 2024.                   
                 </p>
             </div>
         </div>
