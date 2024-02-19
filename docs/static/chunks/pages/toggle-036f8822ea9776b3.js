@@ -1,1 +1,0 @@
-(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[781],{1831:function(n,u,t){(window.__NEXT_P=window.__NEXT_P||[]).push(["/toggle",function(){return t(4814)}])},4814:function(n,u,t){"use strict";function o(){console.log("toggled")}t.r(u),t.d(u,{default:function(){return o}}),t(7294)}},function(n){n.O(0,[888,774,179],function(){return n(n.s=1831)}),_N_E=n.O()}]);

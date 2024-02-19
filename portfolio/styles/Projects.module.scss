@@ -9,26 +9,26 @@
     h2 {
         color: rgb(var(--accent));
     }
+
     .project {  
-        border: 2px solid rgba(var(--accent), 1);
+        // border: 2px solid rgba(var(--accent), 1);
         border-radius: var(--border-radius);
+        box-shadow: 1px 1px 5px rgb(var(--text-color));
+        // background: radial-gradient(
+        //     rgb(var(--background)),
+        //     var(--grad-end)
+        // );
 
         margin: 2vh 5vh 5vh 0;
         padding: 1vh 1vw 1vh 1vw;
-        
+
         h3, h4 {
-            color: rgb(var(--text-color));    
-        }
-
-        p {
             color: rgb(var(--text-color));
-            font-size: var(--font-size);
-            line-height: var(--line-height);
-            margin-top: .25em;  
-            margin-bottom: 1em;  
         }
 
-        h4 {
+        p, h4 {
+            color: rgb(var(--text-color));
+            margin-bottom: .5em;
             font-weight: normal;
         }
     }

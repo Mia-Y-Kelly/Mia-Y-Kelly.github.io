@@ -15,7 +15,7 @@
   align-items: center;
   height: 85vh;
   width: 100vw;
-  overflow: scroll;
+  overflow-y: scroll;
   scroll-behavior: smooth;
 
   background: linear-gradient(
@@ -24,19 +24,14 @@
     var(--grad-end)
   );
 
+
   footer {
     font-size: var(--font-size);
     line-height: var(--line-height);
     color: rgba(var(--text-color), 0.6);
   }
-
-  ::-webkit-scrollbar {
-    scrollbar-color: rgb(var(--nav-line));
-    scrollbar-gutter: rgb(var(--accent));
-    scroll-margin-right: 10px;
-    scroll-margin-left: 10px;
-  }
 }
+
 
 .grid {
   display: flex;
