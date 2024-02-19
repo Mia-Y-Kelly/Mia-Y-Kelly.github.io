@@ -15,7 +15,8 @@
   align-items: center;
   height: 85vh;
   width: 100vw;
-  overflow: hidden;
+  overflow: scroll;
+  scroll-behavior: smooth;
 
   background: linear-gradient(
     180deg,
@@ -28,14 +29,19 @@
     line-height: var(--line-height);
     color: rgba(var(--text-color), 0.6);
   }
+
+  ::-webkit-scrollbar {
+    scrollbar-color: rgb(var(--nav-line));
+    scrollbar-gutter: rgb(var(--accent));
+    scroll-margin-right: 10px;
+    scroll-margin-left: 10px;
+  }
 }
 
 .grid {
   display: flex;
   flex-direction: column;
   width: 75vw;
-  overflow: scroll;
-  scroll-behavior: smooth;
 }
 
 /* Mobile */
@@ -79,80 +85,6 @@
     );
   }
 }
-//   .content {
-//     padding: 4rem;
-//   }
-
-//   .grid {
-//     grid-template-columns: 1fr;
-//     margin-bottom: 120px;
-//     max-width: 320px;
-//     text-align: center;
-//   }
-
-//   .card {
-//     padding: 1rem 2.5rem;
-
-//     h2 {
-//       margin-bottom: 0.5rem;
-//     }
-//   }
-
-//   .center {
-//     padding: 8rem 0 6rem;
-//   }
-
-//   .center::before {
-//     transform: none;
-//     height: 300px;
-//   }
-
-//   .description {
-//     font-size: 0.8rem;
-
-//     a {
-//       padding: 1rem;
-//     }
-
-//     p,
-//     div {
-//       display: flex;
-//       justify-content: center;
-//       position: fixed;
-//       width: 100%;
-//     }
-
-//     p {
-//       align-items: center;
-//       inset: 0 0 auto;
-//       padding: 2rem 1rem 1.4rem;
-//       border-radius: 0;
-//       border: none;
-//       border-bottom: 1px solid rgba(var(--callout-border-rgb), 0.25);
-//       background: linear-gradient(
-//         to bottom,
-//         rgba(var(--background-start-rgb), 1),
-//         rgba(var(--callout-rgb), 0.5)
-//       );
-//       background-clip: padding-box;
-//       backdrop-filter: blur(24px);
-//     }
-
-//     div {
-//       align-items: flex-end;
-//       pointer-events: none;
-//       inset: auto 0 0;
-//       padding: 2rem;
-//       height: 200px;
-//       background: linear-gradient(
-//         to bottom,
-//         transparent 0%,
-//         rgb(var(--background-end-rgb)) 40%
-//       );
-//       z-index: 1;
-//     }
-//   }
-// }
 
 /* Tablet and Smaller Desktop */
 // @media (min-width: 701px) and (max-width: 1120px) {
