@@ -32,12 +32,13 @@ h2 {
 :root[data-theme=light] {
   --accent: 51, 153, 137;
   --text-color: 19, 21, 21;
-  --background: 255, 250, 251;
+  --background: rgb(255, 250, 251);
   --nav-line: 19, 21, 21;
 
   --socials-background: rgba(var(--accent), .4);
 
   --bullet-color: 51, 153, 137;
+  --project-outline: var(--text-color);
 
   --grad-end: rgba(19, 21, 21, .3);
 }
@@ -50,12 +51,13 @@ html[data-theme=light] {
   :root {
     --accent: 51, 153, 137;
     --text-color: 19, 21, 21;
-    --background: 255, 250, 251;
+    --background: rgb(255, 250, 251);
     --nav-line: 19, 21, 21;
 
     --socials-background: rgba(var(--accent), .4);
 
     --bullet-color: 51, 153, 137;
+    --project-outline: var(--text-color);
 
     --grad-end: rgba(19, 21, 21, .3);
   }
@@ -76,6 +78,7 @@ html[data-theme=light] {
   --socials-background: rgb(var(--accent));
 
   --bullet-color: 125, 226, 209;
+  --project-outline: 148, 148, 148;
 
   /* Gradient colors */
   --grad-end: rgba(255, 250, 251, 1);
@@ -95,6 +98,7 @@ html[data-theme=dark] {
     --socials-background: rgb(var(--accent));
 
     --bullet-color: 125, 226, 209;
+    --project-outline: 148, 148, 148;
 
     --grad-end: rgba(255, 250, 251, 1);
   }

@@ -11,9 +11,15 @@
     }
 
     .project {  
-        // border: 2px solid rgba(var(--accent), 1);
         border-radius: var(--border-radius);
-        box-shadow: 1px 1px 5px rgb(var(--text-color));
+        border-width: 3px;
+        border-style: solid;
+        border-bottom-color:  rgb(var(--accent));
+        border-top: none;
+        border-right: none;
+        border-left: none;
+
+        box-shadow: 1px 1px 4px rgb(var(--project-outline));
         // background: radial-gradient(
         //     rgb(var(--background)),
         //     var(--grad-end)
@@ -22,7 +28,11 @@
         margin: 2vh 5vh 5vh 0;
         padding: 1vh 1vw 1vh 1vw;
 
-        h3, h4 {
+        h3 {
+            color: rgb(var(--accent));
+        }
+
+        h4 {
             color: rgb(var(--text-color));
         }
 
