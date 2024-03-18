@@ -42,13 +42,13 @@ export default function About(){
                 </div>  
                 <p>
                     <br/>
-                    I am a senior studying Computer Science and Cybersecurity at Michigan Technological University. I currently work as a Research Assistant building an educational cybersecurity platform. My professional experience includes an internship at Fidelity Investments, where I worked on a SpringBoot API and systems administration tasks. I also worked my university's IT department performing hardware and software troubleshooting. 
+                    I am a senior studying Computer Science and Cybersecurity at Michigan Technological University. I currenly work as a research assistant building an educational cybersecurity platform. My professional experience includes an internship at Fidelity Investments, where I worked on a SpringBoot API and system's administration tasks. I also worked my university's IT department performing hardware and software troubleshooting. 
                     <br/><br/>
-                    Participation in student organizations such as the Networking and Computing Student Association (NCSA) and IT Oxygen Enterprise has contributed to the development of my skills across projects spanning full-stack development, machine learning, and cloud technologies. These experiences have also given me the opportunity to assume leadership roles. I currently serve as the Development Team Lead for NCSA and hold the position of Outreach Chair for IT Oxygen Enterprise.
+                    I have been an active member of the Networking and Computing Student Association (NCSA) and IT Oxygen Enterprise. This has contributed to the development of my skills across projects spanning full-stack development, machine learning, and cloud technologies. I currently serve as the Development Team Lead for NCSA and hold the position of Outreach Chair for IT Oxygen Enterprise.
                     {/* <br/><br/>
-                    Outside of work and academic clubs and work, I was very active the women's ultimate frisbee club at my university until I tore my ACL skiing. 4 knee surgeries later, I enjoy less strenous activities such as swimming, reading, and collecting mechanical keyboards. <i>(If you have a reasonably-priced Axe60 keyboard for sale, let me know!)</i> */}
+                    Outside of work and academic clubs and work, I was very active the women's ultimate frisbee club at my university until I tore my ACL skiing. 4 knee surgeries later, I enjoy less strenous activities such as swimming, reading, and collecting mechanical keyboards. */}
                     <br/><br/>
-                    As I approach graduation, I am actively seeking employment opportunities starting in May or June 2024.                   
+                    As I approach graduation, I am actively seeking employment opportunities starting in June 2024.                   
                 </p>
             </div>
         </div>
