@@ -22,7 +22,7 @@ export default function Experience() {
                         <li>Integrating OAuth Google authentication.</li>
                         <li>Dockerizing application for minimal overhead.</li>
                     </ul>
-                    <h4><b>Skills:</b> JavaScript, MySQL, Docker, Cpanel</h4>
+                    <h4><b>Skills:</b> Express, Node, xterm, MySQL, Docker, OAuth, cPanel</h4>
                 </div>
                 <div className={estyles.position}>
                     <h3>Full Stack Intern</h3>

@@ -42,13 +42,13 @@ export default function About(){
                 </div>  
                 <p>
                     <br/>
-                    I am a senior studying Computer Science and Cybersecurity at Michigan Technological University. I currenly work as a research assistant building an educational cybersecurity platform. My professional experience includes an internship at Fidelity Investments, where I worked on a SpringBoot API and system's administration tasks. I also worked my university's IT department performing hardware and software troubleshooting. 
+                    I am a senior studying Computer Science and Cybersecurity at Michigan Technological University. I currently work as a research assistant building an educational cybersecurity platform. My professional experience includes an internship at Fidelity Investments, where I worked on a SpringBoot API and system's administration tasks. I also worked my university's IT department performing hardware and software troubleshooting. 
                     <br/><br/>
                     I have been an active member of the Networking and Computing Student Association (NCSA) and IT Oxygen Enterprise. This has contributed to the development of my skills across projects spanning full-stack development, machine learning, and cloud technologies. I currently serve as the Development Team Lead for NCSA and hold the position of Outreach Chair for IT Oxygen Enterprise.
                     {/* <br/><br/>
                     Outside of work and academic clubs and work, I was very active the women's ultimate frisbee club at my university until I tore my ACL skiing. 4 knee surgeries later, I enjoy less strenous activities such as swimming, reading, and collecting mechanical keyboards. */}
                     <br/><br/>
-                    As I approach graduation, I am actively seeking employment opportunities starting in June 2024.                   
+                    I am actively seeking employment opportunities, and I am open to relocation.                  
                 </p>
             </div>
         </div>

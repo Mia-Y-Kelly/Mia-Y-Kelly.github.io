@@ -33,14 +33,14 @@ h2 {
   --accent: 51, 153, 137;
   --text-color: 19, 21, 21;
   --background: rgb(255, 250, 251);
-  --nav-line: 19, 21, 21;
+  --nav-line: var(--text-color);
 
   --socials-background: rgba(var(--accent), .4);
 
-  --bullet-color: 51, 153, 137;
+  --bullet-color: var(--accent);
   --project-outline: var(--text-color);
 
-  --grad-end: rgba(19, 21, 21, .3);
+  --grad-end: rgba(rgb(var(--text-color)) .3);
 }
 
 html[data-theme=light] {
@@ -49,17 +49,28 @@ html[data-theme=light] {
 
 @media (prefers-color-scheme: light) {
   :root {
+    // --accent: 51, 153, 137;
+    // --text-color: 19, 21, 21;
+    // --background: rgb(255, 250, 251);
+    // --nav-line: 19, 21, 21;
+
+    // --socials-background: rgba(var(--accent), .4);
+
+    // --bullet-color: 51, 153, 137;
+    // --project-outline: var(--text-color);
+
+    // --grad-end: rgba(19, 21, 21, .3);
     --accent: 51, 153, 137;
     --text-color: 19, 21, 21;
     --background: rgb(255, 250, 251);
-    --nav-line: 19, 21, 21;
-
+    --nav-line: var(--text-color);
+  
     --socials-background: rgba(var(--accent), .4);
-
-    --bullet-color: 51, 153, 137;
+  
+    --bullet-color: var(--accent);
     --project-outline: var(--text-color);
-
-    --grad-end: rgba(19, 21, 21, .3);
+  
+    --grad-end: rgba(rgb(var(--text-color)) .3);
   }
 
   html {
@@ -69,10 +80,11 @@ html[data-theme=light] {
 
 /* Dark Mode */
 :root[data-theme=dark] {
-  --accent: 125, 226, 209;
+  --accent: 83, 207, 189;
   --text-color: 255, 250, 251;
   // --background: 74, 71, 62;
-  --background: rgb(43, 44, 40);
+  // --background: rgb(43, 44, 40);
+  --background: rgb(48, 44, 40);
   --nav-line: 255, 250, 251;
 
   --socials-background: rgb(var(--accent));
@@ -89,7 +101,7 @@ html[data-theme=dark] {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --accent: 125, 226, 209;
+    --accent: 83, 207, 189;
     --text-color: 255, 250, 251;
     // --background: rgb(74, 71, 62);
     --background: rgb(43, 40, 32);

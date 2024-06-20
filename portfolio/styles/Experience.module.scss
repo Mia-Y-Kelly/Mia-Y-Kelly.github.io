@@ -1,10 +1,27 @@
 .experience {
     min-height: 85vh;
 }
+
+.position:hover {
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    border: 1px solid rgba(var(--nav-line), 0.1);
+    // border-style: inset;
+    background:rgba(var(--nav-line), 0.03);
+    padding: 2%;
+
+    // background: var(rgba(var(--nav-line), 100));
+    box-shadow: .5px .5px .5px rgb(var(--project-outline));
+}
+
 .position {
     font-family: sans-serif;
-
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(0, 0, 0, 0);
+    padding: 2%;
     margin: 1vh 0 3vh 0;
+
+
     h3, h4 {
         color: rgb(var(--text-color));
     }
