@@ -38,6 +38,7 @@ h2 {
   --socials-background: rgba(var(--accent), .4);
 
   --bullet-color: var(--accent);
+  // --bullet-color: 255, 110, 139;
   --project-outline: var(--text-color);
 
   --grad-end: rgba(rgb(var(--text-color)) .3);
@@ -84,13 +85,14 @@ html[data-theme=light] {
   --text-color: 255, 250, 251;
   // --background: 74, 71, 62;
   // --background: rgb(43, 44, 40);
-  --background: rgb(48, 44, 40);
+  --background: rgb(66, 62, 59);
   --nav-line: 255, 250, 251;
 
   --socials-background: rgb(var(--accent));
 
   --bullet-color: 125, 226, 209;
-  --project-outline: 148, 148, 148;
+  // --project-outline: 148, 148, 148;
+  --project-outline: 0, 0, 0;
 
   /* Gradient colors */
   --grad-end: rgba(255, 250, 251, 1);

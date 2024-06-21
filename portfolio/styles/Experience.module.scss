@@ -1,30 +1,23 @@
 .experience {
     min-height: 85vh;
-}
-
-.position:hover {
-    border-radius: var(--border-radius);
-    cursor: pointer;
-    border: 1px solid rgba(var(--nav-line), 0.1);
-    // border-style: inset;
-    background:rgba(var(--nav-line), 0.03);
-    padding: 2%;
-
-    // background: var(rgba(var(--nav-line), 100));
-    box-shadow: .5px .5px .5px rgb(var(--project-outline));
+    margin-top: 5vh;
 }
 
 .position {
     font-family: sans-serif;
     border-radius: var(--border-radius);
-    border: 1px solid rgba(0, 0, 0, 0);
+    // border: 1px solid rgba(0, 0, 0, 0);
+    border: 1.5px solid rgb(0, 0, 0);
     padding: 2%;
     margin: 1vh 0 3vh 0;
 
+    // Experiment w/outline
+    // background: rgba(255, 110, 139, 0.03);
+    background: rgba(var(--bullet-color), 0.03);
 
-    h3, h4 {
-        color: rgb(var(--text-color));
-    }
+    box-shadow: 12px 12px 0px rgb(var(--project-outline));
+    // box-shadow: 12px 12px 0px rgb(255, 110, 139);
+
 
     ul {
         margin: 0 0 1vh 0;
@@ -42,9 +35,14 @@
         }
     }
     
+    h3, b {
+        // color: rgb(255, 110, 139);
+        color: rgb(var(--bullet-color));
+    }
 
     h4 {
         font-weight: normal;
+        color: rgb(var(--text-color));
     }
 
     .details {

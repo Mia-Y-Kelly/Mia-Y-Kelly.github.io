@@ -149,7 +149,7 @@ export default function Projects() {
                   }}
                 >
                   <h3>NCSA Lab Hours Tracker</h3>
-                  <h4>Aug. 2021 - Present</h4>
+                  <h4>Aug. 2021 - March 2024</h4>
                 </div>
                 <div 
                   className={pstyles.project}
