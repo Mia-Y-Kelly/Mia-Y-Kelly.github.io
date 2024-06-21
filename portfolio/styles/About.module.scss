@@ -44,6 +44,22 @@
             margin-left: auto;
         }
     }
+
+    .photoContainer {
+        // border: 1px solid black;
+        display: flex;
+        justify-content: center;
+        margin-top: 2vh;
+
+        .photo {
+            height: 100%;
+            width: auto;
+            border-radius: 100%;
+
+            box-shadow: 2px 2px 2px rgb(var(--text-color));
+        }
+    }
+    
 }
 
 /* Mobile */

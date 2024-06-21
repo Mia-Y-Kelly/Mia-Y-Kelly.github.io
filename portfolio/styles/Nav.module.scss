@@ -1,10 +1,9 @@
 .nav {
   position: absolute;
-  top: 5vh;
+  // top: 3vh;
   display: flex;
   flex-direction: row;
   justify-content: right;
-
 
   border-bottom: 2px solid rgb(var(--nav-line));
   margin: 0 10vw 0 10vw;
