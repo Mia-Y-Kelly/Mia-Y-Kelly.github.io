@@ -14,5 +14,9 @@
     "react-card-flip": "^1.2.3",
     "react-dom": "^18",
     "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.1.0"
   }
 }
