@@ -45,6 +45,11 @@ export default function NavBar() {
                             <p>Projects</p>
                         </Link>
                     </li>
+                    <li>
+                        <Link href="#courses" className="link">
+                            <p>Courses</p>
+                        </Link>
+                    </li>
                     <li onClick={toggle}>
                             <Image
                                 id = "nav-img"

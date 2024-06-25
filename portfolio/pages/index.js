@@ -7,7 +7,8 @@ import pstyles from "@/styles/Projects.module.scss"
 import NavBar from "./components/navbar";
 import Projects from './components/projects';
 import Experience from "./components/experience";
-import About from "./components/about"
+import About from "./components/about";
+import Courses from "./components/courses";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,7 +26,8 @@ export default function Home() {
         <div className={styles.grid}>
           <About />
           <Experience />
-          <Projects /> 
+          <Projects />
+          <Courses /> 
         </div>
         <footer>&copy;2024</footer>
       </main>

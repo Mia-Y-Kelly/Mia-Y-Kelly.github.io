@@ -33,6 +33,7 @@ h2 {
   --accent: 51, 153, 137;
   --text-color: 19, 21, 21;
   --background: rgb(255, 250, 251);
+  --course-text-color: var(--background);
   --nav-line: var(--text-color);
 
   --socials-background: rgba(var(--accent), .4);
@@ -40,6 +41,8 @@ h2 {
   --bullet-color: var(--accent);
   // --bullet-color: 255, 110, 139;
   --project-outline: var(--text-color);
+  --drop-shadow: rgb(50, 50, 50);
+  --border-color: rgb(50, 50, 50);
 
   --grad-end: rgba(rgb(var(--text-color)) .3);
 }
@@ -64,12 +67,15 @@ html[data-theme=light] {
     --accent: 51, 153, 137;
     --text-color: 19, 21, 21;
     --background: rgb(255, 250, 251);
+    --course-text-color: var(--background);
     --nav-line: var(--text-color);
   
     --socials-background: rgba(var(--accent), .4);
   
     --bullet-color: var(--accent);
     --project-outline: var(--text-color);
+    --border-color: rgb(50, 50, 50);
+    --drop-shadow: rgb(50, 50, 50);
   
     --grad-end: rgba(rgb(var(--text-color)) .3);
   }
@@ -86,6 +92,7 @@ html[data-theme=light] {
   // --background: 74, 71, 62;
   // --background: rgb(43, 44, 40);
   --background: rgb(66, 62, 59);
+  --course-text-color: rgb(43, 40, 32);
   --nav-line: 255, 250, 251;
 
   --socials-background: rgb(var(--accent));
@@ -93,6 +100,8 @@ html[data-theme=light] {
   --bullet-color: 125, 226, 209;
   // --project-outline: 148, 148, 148;
   --project-outline: 0, 0, 0;
+  --border-color: rgb(var(--text-color));
+  --drop-shadow: rgb(200, 200, 200);
 
   /* Gradient colors */
   --grad-end: rgba(255, 250, 251, 1);
@@ -105,6 +114,7 @@ html[data-theme=dark] {
   :root {
     --accent: 83, 207, 189;
     --text-color: 255, 250, 251;
+    --course-text-color: rgb(43, 40, 32);
     // --background: rgb(74, 71, 62);
     --background: rgb(43, 40, 32);
     --nav-line: 255, 250, 251;
@@ -113,6 +123,8 @@ html[data-theme=dark] {
 
     --bullet-color: 125, 226, 209;
     --project-outline: 148, 148, 148;
+    --border-color: rgb(var(--text-color));
+    --drop-shadow: rgb(200, 200, 200);
 
     --grad-end: rgba(255, 250, 251, 1);
   }

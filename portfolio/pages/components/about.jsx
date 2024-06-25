@@ -50,7 +50,7 @@ export default function About(){
                     />
                     <p>
                         <br/>
-                        I am a graduate of Michigan Technological University with a <Link href={"https://www.mtu.edu/cs/undergraduate/"} style={{'text-decoration': 'underline'}} target="_blank">BS in Computer Science</Link> and a <Link href={"https://www.mtu.edu/computing/undergraduate/minors/cybersecurity/"} style={{'text-decoration': 'underline'}} target="_blank">minor in cybersecurity</Link>. I am actively seeking employment opportunities, and I am open to relocation.
+                        I am a graduate of Michigan Technological University with a <Link href={"https://www.mtu.edu/cs/undergraduate/"} style={{'textDecoration': 'underline'}} target="_blank">BS in Computer Science</Link> and a <Link href={"https://www.mtu.edu/computing/undergraduate/minors/cybersecurity/"} style={{'textDecoration': 'underline'}} target="_blank">minor in cybersecurity</Link>. I am actively seeking employment opportunities, and I am open to relocation.
                         <br/><br/>
                         I previously worked as a research assistant for Dr. Yu Cai building an educational cybersecurity platform. I developed an integrated bash terminal, API, and continuous deployment for the application. My other work experience includes an internship at Fidelity Investments where I worked on SpringBoot API and system administrative tasks, and working at my university's IT department.
                         <br/><br/>
