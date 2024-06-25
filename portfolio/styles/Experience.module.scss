@@ -7,16 +7,13 @@
     font-family: sans-serif;
     border-radius: var(--border-radius);
     // border: 1px solid rgba(0, 0, 0, 0);
-    border: 1.5px solid rgb(0, 0, 0);
+    border: 1.5px solid var(--border-color);
     padding: 2%;
     margin: 1vh 0 3vh 0;
 
-    // Experiment w/outline
-    // background: rgba(255, 110, 139, 0.03);
     background: rgba(var(--bullet-color), 0.03);
 
-    box-shadow: 12px 12px 0px rgb(var(--project-outline));
-    // box-shadow: 12px 12px 0px rgb(255, 110, 139);
+    box-shadow: 12px 12px 0px var(--drop-shadow);
 
 
     ul {

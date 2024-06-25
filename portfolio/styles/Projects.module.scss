@@ -1,8 +1,6 @@
 .projects {
-    min-height: 85vh;
-    margin-top: 10vh;
+    margin-top: 3vh;
 }
-
 .projectsContainer {  
     display: grid;
     grid-template-columns: repeat(3, [col] 20vw);
@@ -16,9 +14,9 @@
         border-radius: var(--border-radius);
         border-width: 3px;
         border-style: solid;
-        border-top: 1.5px solid black;
-        border-left: 1.5px solid black;
-        border-right: 1.5px solid black;
+        border-top: 1.5px solid var(--border-color);
+        border-left: 1.5px solid var(--border-color);
+        border-right: 1.5px solid var(--border-color);
         border-bottom: 5px solid rgb(var(--accent));
         background: rgba(var(--bullet-color), 0.03);
 
@@ -61,7 +59,7 @@
     .project:hover {
         cursor: pointer;
         background: rgba(var(--accent), 0.2);
-        box-shadow: 12px 12px 0px rgb(var(--project-outline));
+        box-shadow: 12px 12px 0px var(--drop-shadow);
     }  
 }
 
