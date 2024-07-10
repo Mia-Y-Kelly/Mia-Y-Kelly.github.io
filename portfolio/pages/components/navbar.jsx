@@ -1,5 +1,5 @@
 import react from 'react';
-import {useState} from 'react';
+import {useState, useEffect} from 'react';
 import Link from "next/link";
 import Image from "next/image";
 import styles from "@/styles/Home.module.scss";
@@ -11,19 +11,38 @@ export default function NavBar() {
     const [mode, setMode] = useState(nav.light);
     const [path, setPath] = useState("/light.svg");
 
+    function setLight() {
+        document.documentElement.setAttribute('data-theme', 'light');
+        setPath("/light.svg");
+        setMode(nav.light);
+        // console.log(`Mode: ${mode}`);
+    }
+
+    function setDark() {
+        document.documentElement.setAttribute('data-theme', 'dark');
+        setPath("/dark.svg");
+        setMode(nav.dark);
+        // console.log(`Mode: ${mode}`);
+    }
+
     function toggle() {
         if(mode === nav.light) {
-            document.documentElement.setAttribute('data-theme', 'dark');
-            setPath("/dark.svg");
-            setMode(nav.dark);
-            console.log(`Mode: ${mode}`);
+            setDark();
         } else {
-            document.documentElement.setAttribute('data-theme', 'light');
-            setPath("/light.svg");
-            setMode(nav.light);
-            console.log(`Mode: ${mode}`);
+            setLight();
         }
     }
+
+    // Use this to ensure it matches the default system setting
+    useEffect(() => {
+        const query = window.matchMedia("(prefers-color-scheme: dark)");
+        console.log(query.matches);
+        if(query.matches) {
+            setDark();
+        } else {
+            setLight();
+        }
+    }, []);
 
     return(
         <>

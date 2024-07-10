@@ -25,6 +25,7 @@ export default function Courses() {
             >
                 <h2 id="courses">Courses</h2>
                 <div className={styles.coursesContainer} >
+                <p>* College transcript availabe upon request</p>
                     <div className={styles.category} onClick={toggle}>
                         <div className={`${styles.categoryHeader} ${styles.preClick}`} >
                             <h3>Computer Science Courses</h3>

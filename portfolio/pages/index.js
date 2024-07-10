@@ -9,6 +9,7 @@ import Projects from './components/projects';
 import Experience from "./components/experience";
 import About from "./components/about";
 import Courses from "./components/courses";
+import Link from "next/link";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -29,7 +30,9 @@ export default function Home() {
           <Projects />
           <Courses /> 
         </div>
-        <footer>&copy;2024</footer>
+        {/* <footer>  
+          Built by Mia Kelly using Next.js
+        </footer> */}
       </main>
       
     </>

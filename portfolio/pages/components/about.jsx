@@ -52,9 +52,9 @@ export default function About(){
                         <br/>
                         I am a graduate of Michigan Technological University with a <Link href={"https://www.mtu.edu/cs/undergraduate/"} style={{'textDecoration': 'underline'}} target="_blank">BS in Computer Science</Link> and a <Link href={"https://www.mtu.edu/computing/undergraduate/minors/cybersecurity/"} style={{'textDecoration': 'underline'}} target="_blank">minor in cybersecurity</Link>. I am actively seeking employment opportunities, and I am open to relocation.
                         <br/><br/>
-                        I previously worked as a research assistant for Dr. Yu Cai building an educational cybersecurity platform. I developed an integrated bash terminal, API, and continuous deployment for the application. My other work experience includes an internship at Fidelity Investments where I worked on SpringBoot API and system administrative tasks, and working at my university's IT department.
+                        I previously worked an internship at Fidelity Investments. My other work experience includes a research position developing an educational cybersecurity platform and working at my university's IT department.
                         <br/><br/>
-                        During my time at Michigan Tech, I was active member of both the Networking and Computing Student Association (NCSA) and IT Oxygen Enterprise. My involvement in these organizations has contributed to the development of my skills across projects spanning full-stack development, machine learning, and cloud technologies. Outside of work and academic clubs, I enjoy swimming, reading, and collecting mechanical keyboards.
+                        During my time at Michigan Tech, I was active member of both the Networking and Computing Student Association (NCSA) and IT Oxygen Enterprise. My involvement in these organizations has contributed to the development of my skillset with projects spanning full-stack development, machine learning, and cloud technologies. Outside of work and academic clubs, I enjoy swimming, reading, and collecting mechanical keyboards.
                         <br/><br/>                                        
                     </p>
                 </div>                
