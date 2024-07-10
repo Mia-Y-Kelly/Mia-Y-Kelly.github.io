@@ -1,6 +1,13 @@
 .coursesContainer {
     padding: 1vh 5vw 1vh 2vw;
+    
+    p {
+        color: rgb(var(--text-color));
+        font-style: italic;
+    }
 }
+
+
 
 .category {
     margin: 1vh 0 5vh 0;
