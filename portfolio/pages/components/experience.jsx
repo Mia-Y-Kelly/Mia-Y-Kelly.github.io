@@ -15,7 +15,7 @@ export default function Experience() {
                     <h3>Undergraduate Research Assistant</h3>
                     <div className={estyles.details}>
                         <h4>Michigan Technological University | Dr. Yu Cai</h4>
-                        <h4>Nov. 2022 - Present</h4>
+                        <h4>Oct. 2023 - June 2024</h4>
                     </div>
                     <ul>
                         <li>Led a group of six students in the development of an educational cybersecurity platform</li>
