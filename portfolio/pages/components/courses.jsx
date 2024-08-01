@@ -89,7 +89,7 @@ export default function Courses() {
                                 <li>Network Administration I, Network Administration II</li>
                                 <li>Scripting Administration and Automation</li>
                                 <li>Cybersecurity I, Cybersecurity II</li>
-                                <li>Linus Fundementals</li>
+                                <li>Linux Fundamentals</li>
                             </ul>
                         </div>
                     </div>
