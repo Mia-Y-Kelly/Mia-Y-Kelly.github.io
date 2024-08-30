@@ -1,4 +1,3 @@
-import styles from "@/styles/Home.module.scss";
 import estyles from "@/styles/Experience.module.scss"
 
 export default function Experience() {
@@ -11,6 +10,16 @@ export default function Experience() {
                 <h2>
                 Work Experience
                 </h2>
+                <div className={estyles.position}>
+                    <h3>Jr Software Engineer</h3>
+                    <div className={estyles.details}>
+                        <h4>Leidos</h4>
+                        <h4>Aug. 2024 - Present</h4>
+                    </div>
+                    <ul>
+                        <li>Developing for unmanned surface vessels (USVs).</li>
+                    </ul>
+                </div>
                 <div className={estyles.position}>
                     <h3>Undergraduate Research Assistant</h3>
                     <div className={estyles.details}>
